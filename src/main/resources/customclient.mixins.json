@@ -6,7 +6,11 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MinecraftClientMixin",
+    "ScreenMixin",
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
